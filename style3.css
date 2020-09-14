@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(143, 141, 155);
+    }
+    .container {
+    width: 1024px;
+    margin: auto;
+    }
+    .header {
+    background-color: #7259ce;
+    height: 100px;
+    width: 100%;
+    }
+    .header .logo {
+    float: left;
+    width: 15%;
+    }
+    .header .logo img {
+    margin: 5px 15px 5px 15px;
+    width: 90px;
+    padding: 0px;
+    }
+    .header .nav {
+    width: 80%;
+    float: left;
+    }
+    .header .nav h1 {
+    margin: 5px;
+    margin-top: 20px;
+    font-family: sans-serif
+    }
+    .header .nav ul {
+        float: right;
+        margin-right: 15px;
+        }
+        
+    .header .nav ul li {
+        float: left;
+        font-size: 16px;
+        margin-left: 15px;
+        display: block;
+        }
+    .header .nav ul li a {
+        color: black;
+        text-decoration: none;
+        }
+    .header .nav ul li a:hover {
+        color: rgb(255, 255, 255);
+        text-decoration: underline;
+        }
+    .header .nav ul li a:active {
+        color: yellow;
+        }
+    .wrapper {
+        background-color: #bbbbbb;
+        float: left;
+        width: 100%
+        }
+       
+    .sidebar {
+        width: 30%;
+        float: left;
+        font-size: medium;
+        }
+    .sidebar a:hover{
+            color: cornsilk;
+            text-decoration: underline;
+        }
+    .content {
+        background-color: #ffcaca;
+        width: 70%;
+        float: right;
+        }
+    .footer {
+        background-color: rgb(1, 1, 24);
+        clear: both;
+        text-align: center;
+        padding: 15px;
+        }
+        
